@@ -6,5 +6,4 @@ They had to create a idea for a information/informative website that a hospital 
 use for educational improvement of their employees.  Here I built a website to demonstrate
 the idea for her.
 
-This is written using html and bootstrap css.  I wrapped it in rails so I could deploy to
-heroku so it could be accessed for free.
+This is written using html and twitter bootstrap.
