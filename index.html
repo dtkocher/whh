@@ -13,10 +13,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-    <nav class="navbar navbar-default navbar-static-top grey">
+    <nav class="navbar navbar-fixed-top navbar-inverse">
       <div class="container">
         <div class="navbar-header">
-          <a class="navbar-brand" href="#">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand brand" href="#">
             <span class="brand-title">Warm Hearts Hospital</span>
           </a>
         </div>
@@ -27,10 +33,10 @@
             <li><a href="#careers">Careers</a></li>
             <li>
               <form class="form-inline search">
-                <div class="form-group">
+                <div class="form-group col-xs-9">
                   <input type="text" class="form-control" placeholder="Search...">
                 </div>
-                <span class="glyphicon glyphicon-search hand"></span>
+                <span class="glyphicon glyphicon-search col-xs-3 hand white"></span>
               </form>
             </li>
           </ul>
@@ -38,26 +44,26 @@
       </div>
     </nav>
 
-    <div class="container-fluid">
+    <div class="container">
       <div class="row">
-        <div class="col-md-4 col-md-offset-4">
+        <div class="col-md-5 col-md-offset-3">
           <div class="login">
             <h4 class="form-title">Login to Your Account</h4>
             <form class="form-horizontal">
               <div class="form-group">
-                <label for="email" class="col-sm-3 control-label">Email</label>
-                <div class="col-sm-9">
+                <label for="email" class="col-xs-3 control-label">Email</label>
+                <div class="col-xs-9">
                   <input type="email" class="form-control" id="email" placeholder="example@host.com">
                 </div>
               </div>
               <div class="form-group">
-                <label for="password" class="col-sm-3 control-label">Password</label>
-                <div class="col-sm-9">
+                <label for="password" class="col-xs-3 control-label">Password</label>
+                <div class="col-xs-9">
                   <input type="password" class="form-control" id="password" placeholder="Password123">
                 </div>
               </div>
               <div class="form-group">
-                <div class="col-sm-offset-3 col-sm-9">
+                <div class="col-xs-offset-3 col-xs-9">
                   <div class="checkbox">
                     <label>
                       <input type="checkbox"> Remember me
@@ -66,7 +72,7 @@
                 </div>
               </div>
               <div class="form-group">
-                <div class="col-sm-12">
+                <div class="col-xs-12">
                   <a href="home.html" class="btn btn-info btn-lg btn-block">Sign in</a>
                 </div>
               </div>
