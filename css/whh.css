@@ -3,18 +3,10 @@ body {
   margin-top: 120px;
 }
 
+/* Nav */
 nav form.search{
   padding-top: 10px;
   margin-left: 20px;
-}
-
-.hand {
-  cursor: pointer;
-  margin-top: 7px;
-}
-
-.white {
-  color: white;
 }
 
 .brand {
@@ -28,8 +20,9 @@ nav form.search{
   color: #ff5d5e;
 }
 
-.login {
-  margin-top: 40px;
+/* Widget */
+.widget {
+  margin-top: 10px;
   border: 1px solid #DCDCDC;
   padding: 10px 15px;
   min-height: 20px;
@@ -41,12 +34,21 @@ nav form.search{
   color: #666;
 }
 
-.login label {
+.widget label {
   font-weight: 500;
 }
 
-.form-title {
-  padding-bottom: 10px;
+.widget .title {
   border-bottom: 1px solid #DCDCDC;
   margin: 15px 5px 25px;
+}
+
+/* Random */
+.hand {
+  cursor: pointer;
+  margin-top: 7px;
+}
+
+.white {
+  color: white;
 }
