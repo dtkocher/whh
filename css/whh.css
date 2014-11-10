@@ -66,6 +66,16 @@ nav form.search{
   font-size: 13px;
 }
 
+/* Other links widget */
+.other {
+  margin-top: 45px;
+}
+
+/* Other links widget */
+.announcements
+{
+}
+
 /* Random */
 .hand {
   cursor: pointer;
