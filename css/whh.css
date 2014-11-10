@@ -1,6 +1,6 @@
 body {
   background: #fafafa url("../img/cream.png") repeat;
-  margin-top: 120px;
+  margin-top: 65px;
 }
 
 /* Nav */
@@ -43,6 +43,29 @@ nav form.search{
   margin: 15px 5px 25px;
 }
 
+/* Login widget */
+.login {
+  margin-top: 65px;
+}
+
+/* News widget */
+.news {
+  margin-top: 45px;
+}
+
+.news a {
+  font-size: 20px;
+}
+
+.news .carousel {
+  margin-bottom: 20px;
+}
+
+.news .content {
+  margin-top: 3px;
+  font-size: 13px;
+}
+
 /* Random */
 .hand {
   cursor: pointer;
@@ -52,3 +75,5 @@ nav form.search{
 .white {
   color: white;
 }
+
+
