@@ -95,4 +95,31 @@ nav form.search{
   color: white;
 }
 
+.nav-footer {
+  margin-bottom: 0px;
+  color: #9d9d9d;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  padding-top: 15px;
+}
 
+.sticky-footer {
+  color: #9d9d9d;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.25);
+  padding-top: 15px;
+  background-image: -webkit-linear-gradient(top,#3c3c3c 0,#222 100%);
+  background-image: -o-linear-gradient(top,#3c3c3c 0,#222 100%);
+  background-image: -webkit-gradient(linear,left top,left bottom,from(#3c3c3c),to(#222));
+  background-image: linear-gradient(to bottom,#3c3c3c 0,#222 100%);
+  background-color: #222;
+  border-color: #080808;
+  border-radius: 4px;
+  min-height: 50px;
+  border: 1px solid transparent;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.right {
+  float: right;
+}
