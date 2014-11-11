@@ -53,17 +53,28 @@ nav form.search{
   margin-top: 45px;
 }
 
-.news a {
-  font-size: 20px;
-}
-
 .news .carousel {
   margin-bottom: 20px;
 }
 
-.news .content {
+/* Article */
+.article {
+  border-top: 1px solid #DCDCDC;
+  padding-top: 10px;
+}
+
+.article a {
+  font-size: 20px;
+}
+
+.article .content {
   margin-top: 3px;
   font-size: 13px;
+}
+
+.none {
+  border-top: 0px;
+  padding-top: 0px;
 }
 
 /* Other links widget */
@@ -71,14 +82,12 @@ nav form.search{
   margin-top: 45px;
 }
 
-/* Other links widget */
-.announcements
-{
-}
-
 /* Random */
 .hand {
   cursor: pointer;
+}
+
+.search-icon {
   margin-top: 7px;
 }
 
