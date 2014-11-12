@@ -95,11 +95,17 @@ nav form.search{
   color: white;
 }
 
+.right {
+  float: right;
+}
+
+/* Footer */
 .nav-footer {
   margin-bottom: 0px;
   color: #9d9d9d;
   text-shadow: 0 -1px 0 rgba(0,0,0,.25);
   padding-top: 15px;
+  border-radius: 0px;
 }
 
 .sticky-footer {
@@ -117,8 +123,4 @@ nav form.search{
   position: absolute;
   bottom: 0;
   width: 100%;
-}
-
-.right {
-  float: right;
 }
